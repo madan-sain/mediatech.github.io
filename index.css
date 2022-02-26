@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+:root
+{
+    --maincolor:#b8ff5b;
+    --subcolor:#86bc42;
+}
+.top
+{
+   background-color: #86bc42;
+}
+.top i
+{
+    padding-left: 10px;
+}
+.top a
+{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+   
+}
+.main1 a:hover
+{
+    color:#3d4747 ; 
+    
+}
+.non i,a 
+{
+    position: relative;
+    top: 5px;
+}
+.navlink
+{
+    box-shadow: 10px 10px 10px gray;
+  
+}
+.nav-item
+{
+    padding: 10px;
+}
+.nav-item .nav-link 
+{
+    color: aqua;
+}
+.cd
+{
+    
+    padding: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-top:15px;
+    transition: all 0.2s ease-in-out;
+}
+.cd:hover
+{
+    color: #468b01;
+}
+.win i
+{
+    color: #b8ff5b;
+    padding: 25px;
+}
+.fot ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    padding-top: 10px;
+}
+ button
+{
+    background: #fbfff7;
+    color: #000;
+    padding: 5px 20px;
+    border-radius: 10px;
+  
+}
+ /* about us  */
+
+ .crde
+ {
+     border: 1px solid #000;
+     cursor: pointer;
+     padding: 50px;
+     transition: all 0.2s ease-in-out;
+ }
+ .crde:hover
+ {
+     background-color: #b8ff5b;
+     color: #000000;
+ }
+ .devni
+ {
+     border: #63a50c 3px solid;
+     cursor: pointer;
+     padding: 30px;
+ }
+
+ .softs
+ {
+    border: #63a50c 3px solid;
+    cursor: pointer;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+ }
+ .softs:hover
+ {
+    background-color: #b8ff5b;
+    color: #000000;     
+ }
